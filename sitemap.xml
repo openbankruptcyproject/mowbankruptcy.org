@@ -2,4 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mowbankruptcy.org/</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://mowbankruptcy.org/stats.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/arthur-b-federman/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/brian-t-fenimore/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/cynthia-a-norton/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/dennis-r-dow/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://mowbankruptcy.org/judges/jerry-w-venters/</loc><changefreq>monthly</changefreq></url>
 </urlset>
