@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W.D. Missouri Bankruptcy — Empirical Court Research</title>
+<meta name="description" content="Empirical research on the U.S. Bankruptcy Court for the Western District of Missouri: judges, trustees, attorneys, dismissal rates, and case patterns from PACER data.">
+<link rel="canonical" href="https://mowbankruptcy.org/">
+<meta property="og:title" content="W.D. Missouri Bankruptcy — Empirical Court Research">
+<meta property="og:description" content="Empirical research on the U.S. Bankruptcy Court for the Western District of Missouri: judges, trustees, attorneys, dismissal rates, and case patterns from PACER data.">
+<meta property="og:url" content="https://mowbankruptcy.org/">
+<meta property="og:type" content="website">
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Dataset", "name": 'W.D. Missouri Bankruptcy — Empirical Court Research', "url": "https://mowbankruptcy.org/", "description": 'Empirical research on the U.S. Bankruptcy Court for the Western District of Missouri: judges, trustees, attorneys, dismissal rates, and case patterns from PACER data.', "publisher": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "taxID": "41-5159631"}}
+</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3; --text-muted: #7d8590; --accent: #58a6ff; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; max-width: 860px; margin: 0 auto; padding: 32px; }
+header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+h1 { font-size: 1.8rem; margin-bottom: 8px; }
+h2 { font-size: 1.3rem; margin-top: 24px; margin-bottom: 12px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { padding-left: 24px; margin: 12px 0; }
+li { margin: 6px 0; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 32px 0; }
+footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+    <header>
+        <h1>W.D. Missouri Bankruptcy — Empirical Court Research</h1>
+        <p>Empirical research on the U.S. Bankruptcy Court for the Western District of Missouri: judges, trustees, attorneys, dismissal rates, and case patterns from PACER data.</p>
+    </header>
+    <main>
+        <h2>About this site</h2>
+        <p>This satellite hosts empirical research on the <strong>U.S. Bankruptcy Court for the Western District of Missouri</strong> derived from PACER docket data.</p>
+        <p>Pages under construction:</p>
+        <ul>
+            <li><a href="/judges/">5 judges &mdash; profile pages with judicial positions and primary-source links</a></li>
+            <li><a href="/trustees/">Trustee reference</a> &mdash; Sub V, standing Ch. 13, US Trustee, with CourtListener search paths</li>
+            <li>/attorneys/&mdash; firm-level pattern profiles</li>
+            <li>/dismissal-rates/&mdash; chapter-level dismissal data</li>
+            <li>/discharge-rates/&mdash; chapter-level discharge data</li>
+            <li>/data/&mdash; raw CSV/JSON exports</li>
+        </ul>
+        <hr>
+        <p><strong>Source data:</strong> see <a href="https://openbankruptcyproject.org/cases/mowbk/">Open Bankruptcy Project /cases/mowbk/</a> for the underlying district profile pages.</p>
+    </main>
+    <footer>
+        <p>Hosted by <a href="https://openbankruptcyproject.org/">Open Bankruptcy Project</a>, a 501(c)(3) public charity (EIN 41-5159631). Empirical research only &mdash; not legal advice.</p>
+    </footer>
+</body>
+</html>

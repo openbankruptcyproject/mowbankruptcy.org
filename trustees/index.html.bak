@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bankruptcy Trustees of the W.D. Mo.</title>
+<meta name="description" content="Reference page for bankruptcy trustees serving the U.S. Bankruptcy Court for the Western District of Missouri: Chapter 7 panel trustees, standing Chapter 13 trustees, Subchapter V trustees, and the United States Trustee. Trustee assignments are docket-level; this page provides search paths into CourtListener and PACER.">
+<link rel="canonical" href="https://mowbankruptcy.org/trustees/">
+<meta property="og:title" content="Bankruptcy Trustees of the W.D. Mo.">
+<meta property="og:description" content="Reference page for bankruptcy trustees serving the U.S. Bankruptcy Court for the Western District of Missouri: Chapter 7 panel trustees, standing Chapter 13 trustees, Subchapter V trustees, and the United States Trustee. Trustee assignments are docket-level; this page provides search paths into CourtListener and PACER.">
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Bankruptcy Trustees of the W.D. Mo.","description":"Reference page for bankruptcy trustees serving the U.S. Bankruptcy Court for the Western District of Missouri: Chapter 7 panel trustees, standing Chapter 13 trustees, Subchapter V trustees, and the United States Trustee. Trustee assignments are docket-level; this page provides search paths into CourtListener and PACER.","url":"https://mowbankruptcy.org/trustees/","author":{"@type":"NonprofitOrganization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","taxID":"41-5159631"},"license":"https://creativecommons.org/licenses/by-sa/4.0/"}</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3; --text-muted: #7d8590; --accent: #58a6ff; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; max-width: 860px; margin: 0 auto; padding: 32px; }
+header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+h1 { font-size: 1.7rem; margin-bottom: 8px; }
+h2 { font-size: 1.2rem; margin-top: 32px; margin-bottom: 12px; }
+.lede { color: var(--text-muted); margin-bottom: 12px; }
+.role-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; margin: 16px 0; }
+.role-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.nav-back { font-size: 0.9rem; }
+footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+.cta-row a { display: inline-block; padding: 8px 14px; border: 1px solid var(--border); border-radius: 6px; margin-right: 8px; margin-top: 6px; font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<header>
+    <p class="nav-back"><a href="/">&larr; W.D. Mo. Empirical Court Research</a></p>
+    <h1>Bankruptcy Trustees of the W.D. Mo.</h1>
+    <p class="lede">Reference page for bankruptcy trustees serving the U.S. Bankruptcy Court for the Western District of Missouri: Chapter 7 panel trustees, standing Chapter 13 trustees, Subchapter V trustees, and the United States Trustee. Trustee assignments are docket-level; this page provides search paths into CourtListener and PACER.</p>
+</header>
+<main>
+    <h2>Trustee roles in W.D. Mo. cases</h2>
+    <p>Bankruptcy trustees are <strong>case-level participants</strong>, not court-level officials. Each chapter has its own trustee structure:</p>
+
+    <div class="role-card">
+        <h3>Chapter 7 — Panel Trustees</h3>
+        <p>Appointed from a panel maintained by the U.S. Trustee Program (USTP) in <strong>Region 13</strong> (covers Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, South Dakota). Each Chapter 7 case is assigned to a panel trustee, who liquidates non-exempt assets and distributes proceeds to creditors.</p>
+        <div class="cta-row">
+            <a href="https://www.justice.gov/ust/trustee-finder" target="_blank" rel="noopener">USTP Trustee Finder &rarr;</a>
+            <a href="https://www.courtlistener.com/?type=r&q=&court=mowb&document_chapter=7" target="_blank" rel="noopener">Search Ch. 7 dockets on CourtListener &rarr;</a>
+        </div>
+    </div>
+
+    <div class="role-card">
+        <h3>Chapter 13 — Standing Trustees</h3>
+        <p>The Chapter 13 standing trustee is a single appointee (or small number of appointees) per district who administers all Chapter 13 cases &mdash; collecting plan payments and distributing to creditors over the 3-5 year plan term. Standing trustees are public officials, not panel members.</p>
+        <div class="cta-row">
+            <a href="https://www.justice.gov/ust/list-chapter-13-trustees" target="_blank" rel="noopener">List of Ch. 13 Standing Trustees &rarr;</a>
+            <a href="https://www.courtlistener.com/?type=r&q=&court=mowb&document_chapter=13" target="_blank" rel="noopener">Search Ch. 13 dockets &rarr;</a>
+        </div>
+    </div>
+
+    <div class="role-card">
+        <h3>Subchapter V (Ch. 11, Small Business) &mdash; Trustees</h3>
+        <p>Subchapter V was added to Chapter 11 by the Small Business Reorganization Act of 2019. The Sub V trustee&apos;s role differs from a Ch. 7 panel trustee: rather than liquidating, the Sub V trustee facilitates a consensual plan, oversees distribution, and ensures the debtor complies with plan obligations. Sub V trustees are appointed per case from a USTP panel.</p>
+        <div class="cta-row">
+            <a href="https://www.justice.gov/ust/private-trustee-information/list-subchapter-v-trustees" target="_blank" rel="noopener">USTP Subchapter V Trustee List &rarr;</a>
+            <a href="https://www.courtlistener.com/?type=r&q=subchapter+V&court=mowb" target="_blank" rel="noopener">Search Sub V dockets on CourtListener &rarr;</a>
+        </div>
+    </div>
+
+    <div class="role-card">
+        <h3>United States Trustee (UST)</h3>
+        <p>The U.S. Trustee oversees private trustees, monitors case administration, and prosecutes abuse and fraud. The UST appears in cases with statutory authority under 28 U.S.C. &sect; 586 and 11 U.S.C. &sect; 307.</p>
+        <div class="cta-row">
+            <a href="https://www.justice.gov/ust/region-13-iowa-kansas-minnesota-missouri-nebraska-north-dakota-south-dakota" target="_blank" rel="noopener">USTP Region 13 office &rarr;</a>
+        </div>
+    </div>
+
+    <h2>How to find a specific trustee&apos;s cases</h2>
+    <p>Trustee assignments are recorded at the docket level, not the court personnel level. To find dockets associated with a specific trustee in W.D. Mo.:</p>
+    <ol style="margin: 12px 0 12px 24px;">
+        <li>Use <a href="https://www.courtlistener.com/?type=r&q=&court=mowb" target="_blank" rel="noopener">CourtListener docket search</a> filtered to W.D. Mo..</li>
+        <li>Add a name term to the query (e.g., the trustee&apos;s last name).</li>
+        <li>For complete docket detail (including all parties, attorneys, and trustee), retrieve the full docket from PACER.</li>
+    </ol>
+</main>
+<footer>
+    <p>Source guidance: U.S. Trustee Program, Free Law Project / CourtListener. License: CC BY-SA 4.0. Hosted by <a href="https://openbankruptcyproject.org/">Open Bankruptcy Project</a> (501(c)(3), EIN 41-5159631). Educational research only &mdash; not legal advice.</p>
+</footer>
+</body>
+</html>
