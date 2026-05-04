@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W.D. Mo. Bankruptcy — Open Data &amp; Raw Exports</title>
+<meta name="description" content="Raw aggregate dataset for W.D. Mo. bankruptcy filings — chapter mix, monthly filings, case totals — in JSON format. Released under CC BY-SA 4.0.">
+<link rel="canonical" href="https://mowbankruptcy.org/data/">
+<meta property="og:title" content="W.D. Mo. Bankruptcy — Open Data &amp; Raw Exports">
+<meta property="og:description" content="Raw aggregate dataset for W.D. Mo. bankruptcy filings — chapter mix, monthly filings, case totals — in JSON format. Released under CC BY-SA 4.0.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mowbankruptcy.org/data/">
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"W.D. Mo. Bankruptcy Filings — Aggregate Statistics","description":"Filing-volume aggregate dataset for the U.S. Bankruptcy Court for the Western District of Missouri, derived from PACER via the RECAP Archive. Includes total cases, chapter distribution, by-year and by-month time series, and date-range coverage.","url":"https://mowbankruptcy.org/data/","license":"https://creativecommons.org/licenses/by-sa/4.0/","creator":{"@type":"NonprofitOrganization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","taxID":"41-5159631"},"sourceOrganization":{"@type":"Organization","name":"Free Law Project / RECAP / CourtListener","url":"https://free.law/"},"isAccessibleForFree":true,"distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://mowbankruptcy.org/data.json"}],"variableMeasured":["case_count","chapter_distribution","filing_date","by_year","by_month"],"keywords":"bankruptcy data, W.D. Mo., federal court data, PACER, RECAP, dataset","spatialCoverage":"Western District of Missouri"}</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3; --text-muted: #7d8590; --accent: #58a6ff; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; padding: 0; }
+header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 2rem 1.5rem; }
+main { max-width: 920px; margin: 0 auto; padding: 2rem 1.5rem; }
+h1 { font-size: 1.6rem; margin-bottom: 0.5rem; max-width: 920px; margin-left: auto; margin-right: auto; }
+h2 { font-size: 1.2rem; margin: 1.5rem 0 0.75rem; color: var(--accent); }
+p { color: var(--text-muted); margin-bottom: 1rem; }
+a { color: var(--accent); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1rem 0; }
+.code { font-family: ui-monospace, monospace; background: #1c2128; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); font-size: 0.95rem; }
+th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+footer { padding: 2rem 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Open Data — W.D. Mo. Bankruptcy</h1>
+</header>
+<main>
+  <p>Aggregate dataset for the U.S. Bankruptcy Court for the Western District of Missouri, derived from public PACER records via the RECAP Archive. Released under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>.</p>
+
+  <h2>Direct download</h2>
+  <div class="card">
+    <p style="color:var(--text);margin-bottom:0.5rem"><a href="/data.json" rel="noopener"><strong>data.json</strong></a> &mdash; full aggregate, JSON format</p>
+    <p style="margin:0;font-size:0.88rem">Contains <code class="code">stats</code> (totals, chapter distribution, year/month time series) and <code class="code">cases</code> (case-level metadata records).</p>
+  </div>
+
+  <h2>Schema overview</h2>
+  <table>
+    <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+    <tr><td><code class="code">stats.total_cases</code></td><td>int</td><td>Total case count in the dataset</td></tr>
+    <tr><td><code class="code">stats.by_chapter</code></td><td>object</td><td>Case count by Bankruptcy Code chapter (7, 11, 13, etc.)</td></tr>
+    <tr><td><code class="code">stats.by_year</code></td><td>object</td><td>Filings by calendar year</td></tr>
+    <tr><td><code class="code">stats.by_month</code></td><td>object</td><td>Filings by year-month (last 24 months)</td></tr>
+    <tr><td><code class="code">stats.date_range</code></td><td>object</td><td>First/last filing date covered</td></tr>
+    <tr><td><code class="code">cases[]</code></td><td>array</td><td>Per-case metadata: case number, chapter, filing date, status</td></tr>
+  </table>
+
+  <h2>Underlying source</h2>
+  <p>Data is harvested from <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a> / <a href="https://free.law/recap/" rel="noopener">RECAP Archive</a>, which mirrors public PACER records. For docket-level detail and full filing histories, use the <a href="https://openbankruptcyproject.org/cases/mowbk/" rel="noopener">Open Bankruptcy Project case index for W.D. Mo.</a>.</p>
+
+  <h2>Citation</h2>
+  <p>If you use this dataset, please cite: <em>Open Bankruptcy Project (2026). W.D. Mo. Bankruptcy Filings — Aggregate Statistics. Released under CC BY-SA 4.0. https://mowbankruptcy.org/data/</em></p>
+
+  <h2>Related</h2>
+  <ul style="color:var(--text);margin-left:1.5rem;list-style:disc">
+    <li><a href="/">mowbankruptcy.org home</a></li>
+    <li><a href="/judges/">Judges of W.D. Mo.</a></li>
+    <li><a href="/trustees/">Trustees</a></li>
+    <li><a href="/stats.html">Filing statistics page</a></li>
+    <li><a href="https://openbankruptcyproject.org/cases/mowbk/" rel="noopener">OBP case index — W.D. Mo.</a></li>
+  </ul>
+</main>
+<footer>
+  <p>Hosted by <a href="https://openbankruptcyproject.org/">Open Bankruptcy Project</a>, a 501(c)(3) public charity (EIN 41-5159631). Source: <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a> / Free Law Project. License: CC BY-SA 4.0.</p>
+</footer>
+</body>
+</html>
